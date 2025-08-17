@@ -30,7 +30,7 @@ function Footer(){
     return(
         <footer ref={footerRef}>
             <video autoPlay muted loop playsInline className="background-video">
-                <source src={import.meta.env.BASE_URL + '/images/wavy_compressed.mp4'} type="video/mp4" />
+            <source src="images/wavy_compressed.mp4" type="video/mp4" />
             </video>
             <h2>Thank You For Watching!!</h2>
             <p>성실과 끈기를 바탕으로 변화에 적응하며 빠르게 성장하는 퍼블리셔가 되고 싶습니다.</p>
