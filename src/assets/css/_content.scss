@@ -194,10 +194,10 @@ body{
                -webkit-user-drag: none;
             }
             }
-            h3{ font-size: 1.3rem; padding-top: 15px; padding-left: 15px; font-family: var(--main-Kor-Font); }
+            h3{ font-size: 1.3rem; padding-top: 20px; padding-left: 15px; font-family: var(--main-Kor-Font); }
             p{ font-size: 1rem; padding: 20px 15px; font-family: var(--main-Kor-Font); }
             a{ 
-                display: block; width: 80%; border: 2px solid var(--subBg-2); border-radius: .5rem; margin: 10px auto; height: 50px; 
+                display: block; width: 80%; border: 2px solid var(--subBg-2); border-radius: .5rem; margin: 20px auto; height: 50px; 
                 text-align: center; line-height: 50px; font-size: 1.05rem; font-family: var(--main-Kor-Font); color: var(--mainColor);
                 transition: all .3s;
                 &:hover{
@@ -221,14 +221,14 @@ body{
         .project-components{
             gap: 30px; flex-flow: row wrap; justify-content: flex-start; padding-bottom: 80px; gap: 50px;
             .project-item{
-                width: 45%; height: 300px;
+                width: 45%; height: 540px;
             }
         }
     }
     @media screen and (min-width:1440px){
         .project-components{
             .project-item{
-                width: 30%; height: 350px;
+                width: 30%; height: 550px;
             }
         }
     }

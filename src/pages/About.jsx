@@ -52,19 +52,19 @@ function About(){
                 <div className="skills">
                     <h3>SKILLS</h3>
                     <div className="img">
-                        <div className="img-sub"><img src="/images/html.png" alt="HTML" /></div>
-                        <div className="img-sub"><img src="/images/css.png" alt="CSS" /></div>
-                        <div className="img-sub"><img src="/images/js.png" alt="JS" /></div>
-                        <div className="img-sub"><img src="/images/react.png" alt="REACT" /></div>
-                        <div className="img-sub"><img src="/images/vite.png" alt="VITE" /></div>
-                        <div className="img-sub"><img src="/images/vue.png" alt="VUE" /></div>                                                                                 
+                        <div className="img-sub"><img src={import.meta.env.BASE_URL + "/images/html.png"} alt="HTML" /></div>
+                        <div className="img-sub"><img src={import.meta.env.BASE_URL +"/images/css.png"} alt="CSS" /></div>
+                        <div className="img-sub"><img src={import.meta.env.BASE_URL +"/images/js.png"} alt="JS" /></div>
+                        <div className="img-sub"><img src={import.meta.env.BASE_URL +"/images/react.png"} alt="REACT" /></div>
+                        <div className="img-sub"><img src={import.meta.env.BASE_URL +"/images/vite.png"} alt="VITE" /></div>
+                        <div className="img-sub"><img src={import.meta.env.BASE_URL +"/images/vue.png"} alt="VUE" /></div>                                                                                 
                     </div>
                 </div>
                 <div className="tools">
                     <h3>TOOLS</h3>
                     <div className="img">
-                        <div className="img-sub"><img src="/images/vscode.png" alt="VSCODE" /></div>
-                        <div className="img-sub"><img src="/images/figma.png" alt="FIGMA" /></div>                     
+                        <div className="img-sub"><img src={import.meta.env.BASE_URL +"/images/vscode.png"} alt="VSCODE" /></div>
+                        <div className="img-sub"><img src={import.meta.env.BASE_URL +"/images/figma.png"} alt="FIGMA" /></div>                     
                     </div>
                 </div>
             </div>
