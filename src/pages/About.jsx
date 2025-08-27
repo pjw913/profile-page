@@ -30,7 +30,7 @@ function About(){
         <section className="about">
             <h1>About Me</h1>
             <div className="about-content">
-            <div className="profile-image"><img /></div>
+            <div className="profile-image"><img src={import.meta.env.BASE_URL + "/images/photo.jpg"} alt="photo"/></div>
             <div className="interview">
                 <h2>Q & A</h2>
                 <div className="interview-qna">
